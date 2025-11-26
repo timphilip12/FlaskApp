@@ -67,6 +67,6 @@ jobs:
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
           subject: "⚠️ CI ÉCHEC : Les tests ont échoué"
-          to: "ton.email@example.com"
+          to: "timothee.philip@gmail.com"
           from: "ci-bot@example.com"
           body: "Le job CI a échoué pendant les tests. Consulte les logs dans GitHub Actions."
